@@ -1,0 +1,35 @@
+.green {
+	color: green;
+}
+
+.red {
+	color: red;
+}
+
+.hide {
+	display: none;
+}
+
+.container {
+	display:  flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+.buttons {
+	display:  flex;
+	justify-content: space-between;
+	flex-direction: row;
+	margin-top: 2rem;
+	width: 20rem;
+}
+
+.card {
+	width:  20rem;
+}
+
+#displayScore {
+	font-family: 'Noto Sans JP', sans-serif;
+}
